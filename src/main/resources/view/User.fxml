@@ -38,7 +38,7 @@
         <children>
 
             <!-- Action Buttons -->
-            <Button fx:id="btnAdd" layoutX="50.0" layoutY="20.0" onAction="#btnAddOnAction" prefHeight="35.0" prefWidth="125.0" style="-fx-background-color: #4CAF50; -fx-text-fill: white;" text="Add">
+            <Button fx:id="btnAdd" layoutX="50.0" layoutY="20.0" onAction="#btnAddOnAction" prefHeight="35.0" prefWidth="125.0" style="-fx-background-color: green; -fx-text-fill: white;" text="Add">
                 <graphic>
                     <ImageView fitHeight="20.0" fitWidth="20.0" pickOnBounds="true" preserveRatio="true">
                         <image>

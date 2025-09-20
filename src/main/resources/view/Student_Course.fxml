@@ -13,6 +13,7 @@
 
 <AnchorPane prefHeight="550.0" prefWidth="1000.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/24.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.Controllers.StudentRegisterController">
 
+
     <!-- TableView -->
     <TableView fx:id="tblStudentCourse" layoutX="50.0" layoutY="408.0" prefHeight="121.0" prefWidth="894.0" style="-fx-background-color: white; -fx-border-color: #bdbdbd; -fx-font-size: 16px;">
         <columns>
