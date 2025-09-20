@@ -23,7 +23,6 @@ public class LoginController {
     public Label LblLogin;
     UserDAO userDAO = (UserDAO) DAOFactory.getDaoFactory().getDAO(DAOFactory.DaoType.User);
     LoginBO loginBO = (LoginBO) BOFactory.getBoFactory().getBo(BOFactory.BoType.Login);
-
     @FXML
     private Button btnLogin;
 

@@ -15,7 +15,6 @@ import java.util.List;
 public class Student_Course {
     @Id
     private String student_course_id;
-
     @ManyToOne
     @JoinColumn(name = "student_id")
     private Student student;
