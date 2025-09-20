@@ -53,7 +53,7 @@ public class Regex {
             textField.setStyle("-fx-text-fill: Black;  -fx-border-color: green;");
        return true;
         } else {
-            textField.setStyle("-fx-text-fill: red;  -fx-border-color: red;");
+            textField.setStyle("-fx-text-fill: red ;  -fx-border-color: red;");
 
             return false;
         }
