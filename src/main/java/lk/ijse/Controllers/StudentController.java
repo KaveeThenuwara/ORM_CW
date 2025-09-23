@@ -211,7 +211,6 @@ public class StudentController {
                 clear();
                 loadAll();
                 generateNextId();
-
             }
         }
          else {

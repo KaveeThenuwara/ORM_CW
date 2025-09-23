@@ -90,7 +90,7 @@ public class UserController {
     public void initialize() throws SQLException, ClassNotFoundException {
         setCellValueFactory();
         loadAll();
-        generateNextUserId();
+       // generateNextUserId();
         lastLoginID();
 
 

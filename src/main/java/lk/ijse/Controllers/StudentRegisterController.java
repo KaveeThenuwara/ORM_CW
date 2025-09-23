@@ -164,14 +164,12 @@ public class StudentRegisterController {
         }
     }
 
-    /*get last login detail*/
     private void lastLoginID() throws SQLException, ClassNotFoundException {
         Login login = loginDAO.getLastLogin();
         UserID(login.getUserID());
 
     }
 
-    /*set security for access*/
     public void UserID(String ID) throws SQLException, ClassNotFoundException {
         User user = userBO.searchByIdUser(ID);
         String position = user.getPosition();
