@@ -207,7 +207,7 @@ public class StudentController {
             boolean isSave = studentBO.save(studentDTO);
 
             if (isSave){
-                new Alert(Alert.AlertType.CONFIRMATION, "User saved successfully!").show();
+                new Alert(Alert.AlertType.CONFIRMATION, "Student saved successfully!").show();
                 clear();
                 loadAll();
                 generateNextId();
@@ -215,7 +215,7 @@ public class StudentController {
             }
         }
          else {
-            new Alert(Alert.AlertType.ERROR, "User not saved successfully!").show();
+            new Alert(Alert.AlertType.ERROR, "Student not saved successfully!").show();
         }
 
     } catch (Exception e) {
@@ -291,7 +291,7 @@ clear();
                 boolean isSave = studentBO.update(studentDTO);
 
                 if (isSave){
-                    new Alert(Alert.AlertType.CONFIRMATION, "User update successfully!").show();
+                    new Alert(Alert.AlertType.CONFIRMATION, "Student update successfully!").show();
                     clear();
                     loadAll();
                     generateNextId();

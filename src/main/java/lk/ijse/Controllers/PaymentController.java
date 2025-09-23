@@ -74,7 +74,7 @@ public class PaymentController {
                     obList.add(tm);
                 }
             } else {
-                System.out.println("No data returned from getAll() method.");
+                System.out.println("No data returned from getAll()");
             }
 
             tblPaymentHistory.setItems(obList);
