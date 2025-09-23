@@ -40,6 +40,7 @@ public class PaymentController {
     @FXML
     private TableColumn<PaymentDTO, String> colStudent_courseID;
 
+
     @FXML
     private TableView<PaymentDTO> tblPaymentHistory;
 

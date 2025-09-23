@@ -26,8 +26,10 @@ import java.util.List;
 
 
 public class StudentRegisterController {
-    public TableColumn colBatchNumber;
-    public TextField txtBatchNumber;
+    @FXML
+    private TableColumn colBatchNumber;
+    @FXML
+    private TextField txtBatchNumber;
     @FXML
     private Label lblDuration;
     @FXML

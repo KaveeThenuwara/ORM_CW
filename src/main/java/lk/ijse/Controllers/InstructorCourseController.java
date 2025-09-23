@@ -44,7 +44,6 @@ public class InstructorCourseController {
 
     @FXML
     private ComboBox<String> cmbCourse;
-
     @FXML
     private ComboBox<String> cmbInstructor;
 
